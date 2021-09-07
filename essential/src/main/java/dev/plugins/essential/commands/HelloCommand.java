@@ -1,20 +1,11 @@
 package dev.plugins.essential.commands;
 
-import dev.plugins.essential.App;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class HelloCommand implements CommandExecutor{
-
-    private App plugin;
-
-    public HelloCommand(App plugin) {
-        this.plugin = plugin;
-        plugin.getCommand("hello").setExecutor(this);
-    }
-
+public class HelloCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {

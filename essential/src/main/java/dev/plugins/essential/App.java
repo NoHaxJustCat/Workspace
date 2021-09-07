@@ -8,7 +8,7 @@ public class App extends JavaPlugin {
     public void onEnable() {
         getLogger().info("Hello, SpigotMC!");
 
-        new HelloCommand(this);
+        this.getCommand("hello").setExecutor(new HelloCommand());
     }
 
     @Override
