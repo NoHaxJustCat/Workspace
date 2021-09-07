@@ -1,3 +1,3 @@
-main: dev.cibmc.spigot.blankplugin.App
-name: BlankPlugin
+main: dev.plugins.essential.App
+name: ServerEssential
 version: 0.1
