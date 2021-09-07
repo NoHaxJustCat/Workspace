@@ -1,6 +1,5 @@
 package dev.plugins.essential.commands;
 
-import dev.plugins.essential.App;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
