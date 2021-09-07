@@ -1,9 +1,0 @@
-main: dev.plugins.essential.App
-name: ServerEssential
-version: 0.1
-author: NoHaxJustCat-AstroBear
-
-commands:
-  hello:
-    aliases: [hi]
-    description: This is the hello command!
