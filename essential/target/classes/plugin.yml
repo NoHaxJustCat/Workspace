@@ -1,7 +1,7 @@
 main: dev.plugins.essential.App
 name: ServerEssential
-version: 0.1
-author: NoHaxJustCat and AstroBear
+version: 1
+author: NoHaxJustCat&AstroBear
 
 commands:
   hello:
