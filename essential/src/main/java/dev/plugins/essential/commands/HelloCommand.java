@@ -12,6 +12,7 @@ public class HelloCommand implements CommandExecutor{
 
     public HelloCommand(App plugin) {
         this.plugin = plugin;
+        plugin.getCommand("hello").setExecutor(this);
     }
 
     @Override
