@@ -1,13 +1,15 @@
 package dev.plugins.essential;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Plugin initialized! Viva i gatti e anche Orso!" );
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class App extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        getLogger().info("Hello, SpigotMC!");
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("See you again, SpigotMC!");
     }
 }
